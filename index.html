@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GAMING WEBSITE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="youtube logo.jpg">
+  <script type="text/javascript">
+var loader;
+
+function loadNow(opacity) {
+  if (opacity <= 0) {
+      displayContent();
+  } else {
+      loader.style.opacity = opacity;
+      window.setTimeout(function() {
+          loadNow(opacity - 0.2);
+      }, 50);
+  }
+}
+
+function displayContent() {
+  loader.style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  loader = document.getElementById('loader');
+  loadNow(6);
+});
+</script>
+</head>
+<body>
+  <div id="loader"></div>
+  <div id="content">
+	<div class="bgimage">
+		<div class="menu">
+			
+			<div class="leftmenu">
+				<h4> KOLIHEROYASH </h4>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+          <a href="Projects.html" 
+            </a>
+					<li id="firstlist">Projects</li>
+					<a href="https://www.youtube.com/channel/UCGGR6N8K3DxInjZKWFJ6MOA/videos">
+					<li> Videos! </li>
+				</a>
+					<a href="https://www.youtube.com/channel/UCGGR6N8K3DxInjZKWFJ6MOA/playlists">
+					<li> Playlists! </li>
+				</a>
+					<li> About me!</li>
+          <a href="contact page.html">
+					<li> contact </li>
+          </a>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="text">
+			<h4> GAMING • ENTERTAINING • ENJOYING </h4>
+			<h1> KOLIHEROYASH </h1>
+			<h3> ENJOY YOUR LIFE FREE FROM EVERYONE </h3>
+			<a href="https://www.youtube.com/channel/UCGGR6N8K3DxInjZKWFJ6MOA"> 
+			<button id="buttonone"> LIKE SHARE </button>
+		</a>
+		<a href="https://www.youtube.com/channel/UCGGR6N8K3DxInjZKWFJ6MOA">
+			<button id="buttontwo"> SUBSCRIBE </button> 
+		</a>
+		</div>
+
+	</div>
+  </div>
+
+</body>
+</html>
